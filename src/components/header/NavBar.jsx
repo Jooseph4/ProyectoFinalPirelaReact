@@ -3,6 +3,7 @@ import ItemListContainer from "./ItemsListContainer";
 import CartWidget from "./CartWidget";
 import ContainerCart from "./ContainerCart";
 import ContextCart from "./ContextCart";
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 
@@ -14,11 +15,11 @@ const NavBar = () => {
                 </div>
 
                 <nav className="containerItemList">
-                    <ItemListContainer 
-                        itemUno = "Procesadores"
-                        itemDos = "Motherboards"
-                        itemTres = "Fuentes"
-                        itemCuatro = "Placas de video"
+                    <ItemListContainer
+                        itemUno="Procesadores"
+                        itemDos="Motherboards"
+                        itemTres="Fuentes"
+                        itemCuatro="Placas de video"
                     />
                 </nav>
 

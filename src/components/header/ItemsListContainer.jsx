@@ -4,25 +4,25 @@ const ItemListContainer = (props) => {
     return(
         <ul >
             <li style={{ color: "white"}}>
-                <Link to="category/procesador"> 
+                <Link to="/category/procesador"> 
                     {props.itemUno} 
                 </Link>
             </li>
 
             <li>
-                <Link to="category/placa madre">
+                <Link to="/category/placa madre">
                     {props.itemDos}
                 </Link>
             </li>
 
             <li>
-                <Link to="category/fuente">
+                <Link to="/category/fuente">
                     {props.itemTres}
                 </Link>
             </li>
 
             <li>
-                <Link to="category/placa de video">
+                <Link to="/category/placa de video">
                     {props.itemCuatro}
                 </Link>
             </li>
